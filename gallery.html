@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h5>logo</h5>
+        </div>
+        <ul id="nav-items">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="#portfolio">about</a></li>
+            <li><a href="#product1">products</a></li>
+            <li><a href="#work">our work</a></li>
+            <li class="contact-btn"><a href="javascript:void(0)">contact</a></li>
+            <svg id="close"  xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" style="fill: #FFE03F;"><path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg>
+        </ul>
+
+           <svg id="bar"  xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" style="fill: #FFE03F;"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>
+       </header>
+       <div class="gallery-container">
+           <h1>Gallery</h1>
+       <div class="gallery-row">
+        <div id="column">
+            <img src="img/Rectangle 179.png">
+            <img src="img/about/a5.jpg" style="height: 40%;">
+        </div>
+        <div id="column">
+            <img src="img/about/a5.jpg" style="height:40%;">
+            <img src="img/about/a5.jpg" style="height:22%;">
+        </div>
+        <div id="column">
+            <img src="img/about/a5.jpg">
+            <img src="img/about/a5.jpg" style="height:40%;">
+        </div>
+        <div id="column">
+            <img src="img/about/a5.jpg" style="height:40%;">
+            <img src="img/about/a5.jpg" style="height:22%">
+
+        </div>
+
+    </div>
+       </div>
+       <!--  -->
+       <div class="popup-container">
+   
+        <div class="popup">
+            <div class="popup-img-container">
+                <div class="popup-img">
+                <img src="img/user-circle-solid-24.png" alt="">
+                </div>
+                </div>
+           <div class="popup-whole-input">
+            <div class="container">
+                <form id="form" class="form form-1">
+                    <div class="form-control">
+                       
+                        <svg class="popup-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" style="fill: #18BAA0"><path d="M7.5 6.5C7.5 8.981 9.519 11 12 11s4.5-2.019 4.5-4.5S14.481 2 12 2 7.5 4.019 7.5 6.5zM20 21h1v-1c0-3.859-3.141-7-7-7h-4c-3.86 0-7 3.141-7 7v1h17z" ></path></svg>
+                        <input type="text" id="username" placeholder="Enter Username">
+                        <small>Error Message</small>
+                    </div>
+                   
+                    <div class="form-control">
+                        
+                        <svg class="popup-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" style="fill: #18BAA0"><path d="m18.73 5.41-1.28 1L12 10.46 6.55 6.37l-1.28-1A2 2 0 0 0 2 7.05v11.59A1.36 1.36 0 0 0 3.36 20h3.19v-7.72L12 16.37l5.45-4.09V20h3.19A1.36 1.36 0 0 0 22 18.64V7.05a2 2 0 0 0-3.27-1.64z" ></path></svg> 
+                        <input type="text" id="email" placeholder="Enter email">
+                        <div class="error-msg">
+                        <small>Error Message</small>
+                    </div>
+                    </div>
+                    
+                    <div class="form-control">
+                       
+                        <svg  class="popup-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" style="fill: #18BAA0"><path d="m20.487 17.14-4.065-3.696a1.001 1.001 0 0 0-1.391.043l-2.393 2.461c-.576-.11-1.734-.471-2.926-1.66-1.192-1.193-1.553-2.354-1.66-2.926l2.459-2.394a1 1 0 0 0 .043-1.391L6.859 3.513a1 1 0 0 0-1.391-.087l-2.17 1.861a1 1 0 0 0-.29.649c-.015.25-.301 6.172 4.291 10.766C11.305 20.707 16.323 21 17.705 21c.202 0 .326-.006.359-.008a.992.992 0 0 0 .648-.291l1.86-2.171a.997.997 0 0 0-.085-1.39z" ></path></svg> 
+                        <input type="phone" id="phone" placeholder="Phone Number">
+                      
+                    </div>
+                    <div id="phone_error" class="error hidden">Please enter a valid phone number</div>
+                    
+                    <button>Submit</button>
+                </form>
+            </div>
+            </div>
+           </div>
+        </div>
+
+
+
+<!--  -->
+    <footer>
+        <div class="col">
+            <h4>Navigate</h4>
+            <a class="active" href="index.html">Home</a>
+             <a href="about.html">about</a>
+             <a href="gallery.html">gallery</a>
+             <a href="services.html">services</a>
+             <a href="contact.html">contact</a>
+        </div>
+        <div class="col">
+            <h4>Social Media</h4>
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">Term</a>
+            <a href="#">Privacy</a>
+        </div>
+        <div class="col ">
+            <h3>AgencyDev</h3>
+            <p>We are a UI/UX (user interface / user experience) design & development company. We have helped multiple clients from small medium businesses to big brands from various industry to create their website / mobile apps user experiences from the design & the development.</p>
+        </div>
+       </footer>
+       <div class="copyright">
+        <h6>©2023 Ecommerce</h6>
+        <h6>Designed & Developed By <span>Sparkklez Web Solutions</span></h6>
+    </div>
+      
+    <script>
+        var popup =  document.getElementsByClassName('popup-container')[0];
+        var contact =  document.getElementsByClassName('contact-btn')[0];
+    
+        contact.onclick = function(){
+            popup.style.display = "flex";
+        }
+    
+        window.onclick = function(e){
+            if(e.target == popup){
+                popup.style.display = "none";
+            }
+        }
+
+        const bar = document.getElementById('bar');
+const nav = document.getElementById('nav-items');
+const close = document.getElementById('close');
+
+if(bar){
+    bar.addEventListener('click',() => {
+        nav.classList.add('active');
+    })
+}
+if(close){
+    close.addEventListener('click',() => {
+        nav.classList.remove('active');
+    })
+}
+    </script>
+<script src="js/jquery.js"></script>
+<script src="js/slick.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
